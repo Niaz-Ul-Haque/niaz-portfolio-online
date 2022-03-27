@@ -56,9 +56,14 @@ a:hover {
 
 p {
     word-break: break-word;
+    white-space: pre-line;
+
     hyphens: auto;
 }
 
+td {
+    white-space: pre-line;
+}
 .ovhidden {
     overflow: hidden;
 }

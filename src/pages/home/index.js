@@ -55,7 +55,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="../../../public/resume.pdf" target="_blank" download className="text_2">
+                  <Link to="https://ufile.io/bn1veeon" target="_blank" download className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       resume
                       <div className="ring one"></div>

@@ -7,7 +7,7 @@ const meta = {
 const introdata = {
     title: "I’m Mohammed Niaz Ul Haque",
     animated: {
-        first: "learning everyday, every min",
+        first: "learning everyday, everytime",
         second: "infatuated with fullstack",
         third:  "passionate about web dev",
     },
@@ -17,13 +17,13 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "22 years old (june 27). can speak 6 languages. honour/dean's list 2 times. quick learner. problem solver. hackathon enjoyer. congenial & committed. scared of dogs and heights. ice breaker. kpop, anime & kdramas.",
+    aboutme: "he/him. 22 years old (june 27). can speak 6 <br />languages.\n honour/dean's list 2 times. quick learner. \n problem solver. hackathon enjoyer. <br />congenial & committed. scared of dogs & heights. ice breaker. kpop, anime & kdramas. skors mcflurry",
 };
 const worktimeline = [{
         jobtitle: "Jr. Web Developer",
         where: "Treasury Board Secretariat - Toronto",
         date: "2021-2022",
-        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id l\nigula semper elementum feugiat pretium nulla. \nNunc non commodo dolor. \nNunc mollis dignissim facilisis.\n Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id l<br />igula semper elementum feugiat pretium nulla. \nNunc non commodo dolor. \nNunc mollis dignissim facilisis.\n Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
     },
     {
         jobtitle: "Full Stack Developer",
@@ -95,9 +95,6 @@ const services = [{
     },{
         title: "COVID-Tracker",
         description: "· Created a COVID-19 Tracker App using React, ChartsJS, and MaterialUI for the UI Design      · Data is fetched from the COVID-19 API using Async/Await syntax and React Hooks, and        statistics are displayed in cards as well as in charts",
-    },{
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
 
