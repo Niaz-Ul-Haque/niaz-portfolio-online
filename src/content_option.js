@@ -7,7 +7,7 @@ const meta = {
 const introdata = {
     title: "I’m Mohammed Niaz Ul Haque",
     animated: {
-        first: "take joy in coding",
+        first: "learning everyday, every min",
         second: "infatuated with fullstack",
         third:  "passionate about web dev",
     },
@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nPraesent quis dolor id ligula semper elementum feugiat pretium nulla. \nNunc non commodo dolor. \nNunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "22 years old (june 27). can speak 6 languages. honour/dean's list 2 times. quick learner. problem solver. hackathon enjoyer. congenial & committed. scared of dogs and heights. ice breaker. kpop, anime & kdramas.",
 };
 const worktimeline = [{
         jobtitle: "Jr. Web Developer",
@@ -29,7 +29,7 @@ const worktimeline = [{
         jobtitle: "Full Stack Developer",
         where: "Vroom - Toronto",
         date: "2020-2021",
-        desc:"· Designed, coded, and supported software solutions that can easily \nbe scaled depending on client needs\n· Maximized application’s efficiency, data quality, scope, operability, and flexibility\n· Participated in user requirements meetings in order to remodel client needs into proposed app designs",
+        desc:"· Designed, coded, and supported software solutions that can easily \nbe scaled depending on client needs\n· Maximized application's efficiency, data quality, scope, operability, and flexibility\n· Participated in user requirements meetings in order to remodel client needs into proposed app designs",
     },
     {
         jobtitle: "Private Tutor",
@@ -40,40 +40,45 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Javascript",
+        name: "javascript/typescript",
         value: 95,
     },
     {
-        name: "React",
+        name: "react",
         value: 95,
     },
     {
-        name: "Angular",
+        name: "angular",
         value: 75,
     },
     {
-        name: "Vue",
-        value: 75,
-    },
-    {
-        name: "Java",
-        value: 90,
-    },{
-        name: "C/C++",
-        value: 75,
-    },
-    {
-        name: "SQL",
-        value: 90,
-    },
-    {
-        name: "Golang",
-        value: 70,
-    },
-    {
-        name: "Jquery",
+        name: "jquery",
         value: 85,
     },
+    {
+        name: "vue",
+        value: 80,
+    },
+    {
+        name: "java",
+        value: 90,
+    },{
+        name: "c/c++/c#",
+        value: 75,
+    },
+    {
+        name: "database & management",
+        value: 90,
+    },
+    {
+        name: "golang",
+        value: 70,
+    },  
+    {
+        name: "asp.net",
+        value: 70,
+    },
+    
 ];
 
 const services = [{
