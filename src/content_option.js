@@ -11,7 +11,7 @@ const introdata = {
         second: "infatuated with fullstack",
         third:  "passionate about web dev",
     },
-    description: "toronto based web/full-stack dev. clean code enthusiast. not the best gamer tho. ",
+    description: "toronto based web/full-stack dev. clean code enthusiast. \nrecently graduated (summer 2022). not the best gamer tho. ",
     your_img_url: "",
 };
 

@@ -23,7 +23,7 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.github && (
           <li>
-            <a href={socialprofils.github}>
+            <a href="https://github.com/Niaz-Ul-Haque">
               <FaGithub />
             </a>
           </li>
