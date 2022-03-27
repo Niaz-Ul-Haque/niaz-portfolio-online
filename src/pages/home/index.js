@@ -41,7 +41,7 @@ export const Home = () => {
                 <div className="intro_btn-action pb-3">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                    about me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -49,15 +49,15 @@ export const Home = () => {
                   </Link>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      contact me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/portfolio" className="text_2">
+                  <Link to="/about" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                      about me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -68,7 +68,7 @@ export const Home = () => {
                 <div className="intro_btn-action pb-3">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_pn" className="ac_btn btn ">
-                      My Portfolio
+                      my resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

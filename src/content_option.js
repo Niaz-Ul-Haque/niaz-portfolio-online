@@ -1,56 +1,74 @@
-const logotext = "JOHN";
+const logotext = "NIAZ";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Mohammed Niaz Ul Haque",
+    description: "I’m Mohammed Niaz Ul Haque _ Full stack devloper",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Mohammed Niaz Ul Haque",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "take joy in coding",
+        second: "infatuated with fullstack",
+        third:  "passionate about web dev",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "toronto based web/full-stack dev. clean code enthusiast. not the best gamer tho. ",
+    your_img_url: "",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nPraesent quis dolor id ligula semper elementum feugiat pretium nulla. \nNunc non commodo dolor. \nNunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Jr. Web Developer",
+        where: "Treasury Board Secretariat - Toronto",
+        date: "2021-2022",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id l\nigula semper elementum feugiat pretium nulla. \nNunc non commodo dolor. \nNunc mollis dignissim facilisis.\n Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Full Stack Developer",
+        where: "Vroom - Toronto",
+        date: "2020-2021",
+        desc:"· Designed, coded, and supported software solutions that can easily \nbe scaled depending on client needs\n· Maximized application’s efficiency, data quality, scope, operability, and flexibility\n· Participated in user requirements meetings in order to remodel client needs into proposed app designs",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Private Tutor",
+        where: "Riyadh",
+        date: "2015-2018",
+        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent\n quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi\n ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
         name: "Javascript",
-        value: 80,
+        value: 95,
     },
     {
         name: "React",
-        value: 60,
+        value: 95,
+    },
+    {
+        name: "Angular",
+        value: 75,
+    },
+    {
+        name: "Vue",
+        value: 75,
+    },
+    {
+        name: "Java",
+        value: 90,
+    },{
+        name: "C/C++",
+        value: 75,
+    },
+    {
+        name: "SQL",
+        value: 90,
+    },
+    {
+        name: "Golang",
+        value: 70,
     },
     {
         name: "Jquery",
@@ -59,14 +77,20 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Asahi’sDen",
+        description: "Programmed eCommerce web application following MVC design pattern leveraging Handlebars template engine and Express framework  · Built a responsive design using Bootstrap4 and connected to a database with MongoDB",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Vroom-Rent",
+        description: "Currently developing a WebApp following Agile SDLC for a client that helps user search and rent apartments available with ease· User are able to securely Signup/Login and book an appointment with the landlord/s       · Implemented Google Maps API to the app, to pin point the exact location of the apartment",
     },
     {
+        title: "nlinks",
+        description: "Designed and coded an Open-Sourced Node CLI that find’s the status of websites   · Made use of different types of packages from NPM and API’s to automate the CLI        · The CLI can load data from any type of files and overwrite if wanted",
+    },{
+        title: "COVID-Tracker",
+        description: "· Created a COVID-19 Tracker App using React, ChartsJS, and MaterialUI for the UI Design      · Data is fetched from the COVID-19 API using Async/Await syntax and React Hooks, and        statistics are displayed in cards as well as in charts",
+    },{
         title: "Wordpress Design",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
