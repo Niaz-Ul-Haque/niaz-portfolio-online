@@ -44,7 +44,6 @@ export const About = () => {
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
-
                     //This below is the real one with jsut des added (messed uP) but ti works.
                     // <tr key={i}>
                     //   <th scope="row">{data.jobtitle}</th>
@@ -52,20 +51,20 @@ export const About = () => {
                     //   <th>{data.date}</th>
                     //   <td>{data.desc}</td>
                     // </tr>
-                    
+
                     // Temporary solution but miss alighend headers
                     <container>
                       <tr key={i}>
                         <tr>
                           <th scope="row">{data.jobtitle}</th>
                           <td>{data.where}</td>
-                          <th>{data.date}</th>              
+                          <th>{data.date}</th>
                         </tr>
-                        <tr>                 
-                          <td  colspan="100%">{data.desc}</td>
+                        <tr>
+                          <td colspan="100%">{data.desc}</td>
                         </tr>
                         <br />
-                      </tr>  
+                      </tr>
                     </container>
                   );
                 })}

@@ -1,11 +1,6 @@
 import React from "react";
 import "./style.css";
-import {
-  FaGithub,
-  FaTwitter,
-  FaFacebookF,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaTwitter, FaFacebookF, FaLinkedin } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
@@ -40,7 +35,6 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-       
       </ul>
       <p>stalk meee</p>
     </div>
