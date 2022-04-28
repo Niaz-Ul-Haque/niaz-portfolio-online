@@ -27,13 +27,13 @@ const worktimeline = [
     jobtitle: "Jr. Web Developer",
     where: "Treasury Board Secretariat - Toronto",
     date: "2021-2022",
-    desc: " This needs to be edited. the final one will be perferct, now just for testing (messed up allignemts).\n  Praesent quis dolor id  igula semper elementum feugiat pretium nulla. Nunc non commodo dolor. unc mollis dignissim facilisis.\n Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    desc: " · Designed and build features for the OPS Enterprise intranet by making use of VueJS, Go, Docker containers, CI/CD pipelines, Kubernetes, Selenium, MariaDB\n· Tracked tickets using JIRA & Confluence and used snapshots & sandboxes to demo code changes\n· Proactively liaised with other devs, senior staffs, business leads, digital strategists using Teams",
   },
   {
     jobtitle: "Full Stack Developer",
     where: "Vroom - Toronto",
     date: "2020-2021",
-    desc: "· Designed, coded, and supported software solutions that can easily be scaled depending on client needs\n· Maximized application's efficiency, data quality, scope, operability, and flexibility\n· Participated in user requirements meetings in order to remodel client needs into proposed app designs",
+    desc: "· Created a short-term rental solutions app for client/s following MVC design pattern leveraging ReactJS template engine and framework\n· Maximized application’s efficiency, data quality, scope, and flexibility by making use of REST APIs\n· Collaborated with product owner on Teams to ensure efficient, timely deliveries of updates",
   },
   {
     jobtitle: "Private Tutor",
@@ -46,47 +46,54 @@ const worktimeline = [
 const skills = [
   {
     name: "javascript/typescript",
-    value: 95,
   },
   {
     name: "react",
-    value: 95,
   },
   {
     name: "angular",
-    value: 80,
   },
   {
     name: "vue",
-    value: 85,
   },
   {
     name: "jquery",
-    value: 85,
   },
   {
     name: "java",
-    value: 90,
   },
   {
     name: "c/c++/c#",
-    value: 75,
   },
   {
-    name: "database & management",
-    value: 90,
+    name: "oracle",
+  },
+  {
+    name: "transact-sql",
+  },
+  {
+    name: "postgresql",
+  },
+  {
+    name: "mongodb",
+  },
+  {
+    name: "mariadb",
   },
   {
     name: "golang",
-    value: 70,
   },
   {
     name: "asp.net",
-    value: 70,
   },
 ];
 
 const services = [
+  {
+    title: "Enterprise Intranet - InsideOPS - https://intra.ontario.ca",
+    description:
+      "· Collaborated with other developers to ensure the integrity of the Intranet throughout the DevOps life cycle, all while meeting Accessibility standards using WAVE and AXE toolbar when developing\n· Used GIT to stash and retrieve files for Intranet development in system repository\n· Modified the intranet website to optimize the page’s performance for faster loading and searching by using updated VueJs and CSS3 components",
+  },
   {
     title: "Asahi’sDen",
     description:
@@ -95,12 +102,7 @@ const services = [
   {
     title: "Vroom-Rent",
     description:
-      "· Currently developing a WebApp following Agile SDLC for a client that helps user search and rent apartments available with ease\n · User are able to securely Signup/Login and book an appointment with the landlord/s\n· Implemented Google Maps API to the app, to pin point the exact location of the apartment",
-  },
-  {
-    title: "nlinks",
-    description:
-      "· Designed and coded an Open-Sourced Node CLI that find’s the status of websites\n· Made use of different types of packages from NPM and API’s to automate the CLI\n· The CLI can load data from any type of files and overwrite if wanted",
+      "· Developed a WebApp following Agile SDLC for a client that helps user search and rent apartments available with ease\n · User are able to securely Signup/Login and book an appointment with the landlord/s\n· Implemented Google Maps API to the app, to pin point the exact location of the apartment",
   },
   {
     title: "COVID-Tracker",
